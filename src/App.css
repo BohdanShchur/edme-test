@@ -1,0 +1,52 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.planet-system {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding: 25px;
+}
+
+.planet-wrapper {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.planet {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: silver;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.orbit {
+  border-radius: 50%;
+  border: 2px solid #F6C5A3;
+  position: absolute;
+}
+
+.moon {
+  margin-left: 50px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: darkblue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.active {
+  background: #F6C5A3;
+}
